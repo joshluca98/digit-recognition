@@ -1,1 +1,2 @@
 - generate requirements.txt
+- export to stand alone executable to simplify deployment to new machines
