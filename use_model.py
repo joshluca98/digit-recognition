@@ -53,7 +53,7 @@ def use_model():
             print(f"\"digit{img_num}.png\" read successfully.")
             prediction = model.predict(img)
             print("Image prediction made")
-            print(f"Model Prediction: This digit is a {np.argmax(prediction)}.\n")
+            print(f"Model Prediction: This digit is probably a {np.argmax(prediction)}.\n")
             plt.imshow(img[0], cmap=plt.cm.binary)
             plt.show()
         except:
@@ -62,4 +62,5 @@ def use_model():
             img_num += 1
     print("All images have been processed.\n")
 
+# Function call to start the script
 use_model()
