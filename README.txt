@@ -1,5 +1,5 @@
 Background Info:
-	The goal of this project was to build a machine learning model with Keras/Tensorflow that could analyze a handwritten digit, and output a prediction of what value is represented. I chose to implement this project using Python as suggested by the textbook for this course. At this stage of the project, one must use the command line to interact with the script and run the model. I may implement more features (including a GUI) later down the road if I choose to continue development of this project.
+	The goal of this project was to build a machine learning model with Keras/Tensorflow that could analyze a handwritten digit, and output a prediction of what value is represented. I chose to implement this project using Python as suggested by a professor. At this stage of the project, one must use the command line to interact with the script and run the model. I may implement more features (including a GUI) later down the road if I choose to continue development of this project.
 
 General Info:
 	The 'use_model.py' script was designed for the end user to execute directly. When launched, this script will determine if there are any existing models available in the 'generated-models' folder (generated from same script at an earlier time, no third party models). If there is, it will use the existing model to perform the upcoming digit analysis. 
